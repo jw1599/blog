@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Flow - Personal Blog HTML Template</title>
+    <title>Flow - Expert Interview</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.png">
@@ -45,6 +45,31 @@
             </div>
         </div>
     </aside>
+    <!--Offcanvas sidebar-->
+    <aside id="sidebar-wrapper" class="custom-scrollbar offcanvas-sidebar">
+        <button class="off-canvas-close"><img class="svg-icon-24" src="assets/imgs/theme/svg/close.svg" alt=""></button>
+        <div class="sidebar-inner">
+            <div class="sidebar-widget widget-creative-menu">
+                <ul>
+                    <li><a href="category.html">Theoretisch<sup>1</sup></a></li>
+                    <li><a href="category.html">Interview<sup>1</sup></a></li>
+                    <li><a href="category.html">Analyse<sup>0</sup></a></li>
+                    <li><a href="category.html">Overzicht<sup>0</sup></a></li>
+                </ul>
+            </div>
+            <div class="offcanvas-copyright mt-65">
+                <h6 class="text-muted text-uppercase mb-20 font-heading text-white">Flow Magazine</h6>
+                <p>
+                    Flow is een dynamisch online blogplatform dat zich richt op het delen van het laatste marketingnieuws, trends en inzichten.
+                </p>
+                <p><strong class="color-black">Adres</strong><br>
+                    Fraijlemaborg 133<br>
+                    1102 CV Amsterdam</p>
+                <p><strong class="color-black">Telefoon</strong><br>
+                    +31 6 12345678</p>
+            </div>
+        </div>
+    </aside>
     <!-- Start Header -->
     <header class="main-header header-sticky bg-brand-4">
         <div class="position-relative">
@@ -59,62 +84,21 @@
                             <ul class="main-menu d-none d-lg-inline">
                                 <li class="menu-item-has-children">
                                     <a href="index.html">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Home default</a></li>
-                                        <li><a href="home-2.html">Homepage 2</a></li>
-                                        <li><a href="home-3.html">Homepage 3</a></li>
-                                    </ul>
                                 </li>
-                                <li> <a href="page-about.html">About</a> </li>
+                                <li> <a href="page-about.html">Over ons</a> </li>
                                 <li class="menu-item-has-children">
                                     <a href="category.html">Blog</a>
-                                    <ul class="sub-menu font-small">
-                                        <li><a href="category-big.html">Categories Big</a></li>
-                                        <li><a href="category-grid.html">Categories Grid</a></li>
-                                        <li><a href="category-list.html">Categories List</a></li>
-                                        <li><a href="category-list-2.html">Categories List 2</a></li>
-                                    </ul>
-                                </li>
-                                <li> <a href="page-design.html">Design</a> </li>
                                 <li> <a href="page-contact.html">Contact</a> </li>
                             </ul>
                             <!--Mobile menu-->
                             <ul id="mobile-menu" class="d-block d-lg-none text-muted">
                                 <li class="menu-item-has-children">
-                                    <a href="index.html">Home</a>
-                                    <ul class="sub-menu font-small">
-                                        <li><a href="index.html">Home default</a></li>
-                                        <li><a href="home-2.html">Homepage 2</a></li>
-                                        <li><a href="home-3.html">Homepage 3</a></li>
-                                    </ul>
+                                    <<a href="index.html">Home</a>
                                 </li>
-                                <li class="menu-item-has-children"><a href="#">Pages</a>
-                                    <ul class="sub-menu font-small">
-                                        <li><a href="page-about.html">About</a></li>
-                                        <li><a href="page-contact.html">Contact</a></li>
-                                        <li><a href="page-design.html">Typography</a></li>
-                                        <li><a href="page-register.html">Register</a></li>
-                                        <li><a href="page-login.html">Login</a></li>
-                                        <li><a href="page-search.html">Search</a></li>
-                                        <li><a href="page-author.html">Author</a></li>
-                                        <li><a href="page-404.html">404 page</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#">Category</a>
-                                    <ul class="sub-menu font-small">
-                                        <li><a href="category-list.html">List layout</a></li>
-                                        <li><a href="category-grid.html">Grid layout</a></li>
-                                        <li><a href="category-list-2.html">List 2 layout</a></li>
-                                        <li><a href="category-big.html">Big layout</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#">Single post</a>
-                                    <ul class="sub-menu font-small">
-                                        <li><a href="single.html">Default</a></li>
-                                        <li><a href="single-2.html">Big image</a></li>
-                                        <li><a href="single-3.html">Right sidebar</a></li>                                        
-                                    </ul>
-                                </li>
+                                <li> <a href="page-about.html">Over ons</a> </li>
+                                <li class="menu-item-has-children">
+                                    <a href="category.html">Blog</a>
+                                <li> <a href="page-contact.html">Contact</a> </li>
                             </ul>
                         </nav>
                     </div>
@@ -123,7 +107,7 @@
                         <button class="search-icon d-md-inline">
                             <img src="assets/imgs/theme/svg/search.svg" alt="">
                         </button>
-                        <button class="btn btn-md bg-dark text-white ml-15 box-shadow d-none d-lg-inline"><a href="page-contact.html">Get in Touch</a></button>
+                        <button class="btn btn-md bg-dark text-white ml-15 box-shadow d-none d-lg-inline"><a href="page-contact.html">Neem contact op</a></button>
                     </div>
                 </div>
                 <div class="mobile_menu d-lg-none d-block"></div>
@@ -141,10 +125,10 @@
             <div class=" pt-50 pb-50 ">
                 <div class="row mb-20">
                     <div class="col-12 align-self-center main-search-form-cover m-auto">
-                        <p class="text-center"><span class="display-1">Search</span></p>
+                        <p class="text-center"><span class="display-1">Zoekmachine</span></p>
                         <form action="#" class="search-header">
                             <div class="input-group w-100">
-                                <input type="text" class="form-control" placeholder="Search articles, places and people">
+                                <input type="text" class="form-control" placeholder="Zoek artikelen, plaatsen en mensen">
                                 <div class="input-group-append">
                                     <button class="btn btn-search bg-white" type="submit">
                                         <img class="svg-icon-24" src="assets/imgs/theme/svg/search.svg" alt="">
@@ -156,16 +140,11 @@
                 </div>
                 <div class="row mt-80 text-center">
                     <div class="col-12 font-small suggested-area">
-                        <h5 class="suggested font-heading mb-20 text-grey-400"> <strong>Suggested keywords:</strong></h5>
+                        <h5 class="suggested font-heading mb-20 text-grey-400"> <strong>Aanbevolen zoektermen:</strong></h5>
                         <ul class="list-inline d-inline-block">
-                            <li class="list-inline-item"><a href="category.html">Health</a></li>
-                            <li class="list-inline-item"><a href="category.html">Travel tips</a></li>
-                            <li class="list-inline-item"><a href="category.html">Lifestyle</a></li>
-                            <li class="list-inline-item"><a href="category.html">Technology</a></li>
-                            <li class="list-inline-item"><a href="category.html">Food</a></li>
-                            <li class="list-inline-item"><a href="category.html">Books</a></li>
-                            <li class="list-inline-item"><a href="category.html">Drink</a></li>
-                            <li class="list-inline-item"><a href="category.html">Fashion</a></li>
+                            <li class="list-inline-item"><a href="category.html">B2B</a></li>
+                            <li class="list-inline-item"><a href="category.html">social media</a></li>
+                            <li class="list-inline-item"><a href="category.html">marketing</a></li>
                         </ul>
                     </div>
                 </div>
@@ -177,20 +156,20 @@
         <div class="container single-content">
             <div class="entry-header entry-header-style-1 mb-50 pt-50">
                 <div class="post-meta-1 mb-20">
-                    <a href="category.html" class="tag-category bg-brand-1 shadown-1 text-dark button-shadow hover-up-3" tabindex="0">Lifestyle</a>
-                    <span class="post-date text-muted font-md">September 15, 2021</span>
+                    <a href="category.html" class="tag-category bg-brand-1 shadown-1 text-dark button-shadow hover-up-3" tabindex="0">Interview</a>
+                    <span class="post-date text-muted font-md">September 29, 2024</span>
                 </div>
                 <h1 class="entry-title mb-50 fw-700">
-                    30 Best Lifestyle Blogs to Follow in 2021
+                    Hoe maak je een succesvolle B2B social media strategie?
                 </h1>
                 <div class="row align-self-center">
                     <div class="col-md-6">
                         <div class="post-meta-2 font-md d-flext align-self-center mb-md-30">
                             <a href="page-author.html" tabindex="0">
                                 <img src="assets/imgs/authors/author.jpg" alt="">
-                                <span class="author-namge">Kate Adie</span>
+                                <span class="author-namge">Justin Wong</span>
                             </a>
-                            <span class="time-to-read has-dot">6 mins to read</span>
+                            <span class="time-to-read has-dot">10 min om te lezen</span>
                         </div>
                     </div>
                     <div class="col-md-6 text-right d-none d-md-inline">
@@ -206,35 +185,39 @@
             </div>
             <!--end single header-->
             <figure class="image mb-30 m-auto text-center border-radius-10 hover-up-3">
-                <img class="border-radius-10" src="assets/imgs/news/news-16.jpg" alt="post-title" />
+                <img class="border-radius-10" src="assets/imgs/news/b2b.jpg" alt="post-title" />
             </figure>
             <!--figure-->
             <article class="entry-wraper mb-50">
                 <div class="excerpt mb-30">
-                    <p>Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far bald that roadrunner python inside held shrewdly the manatee.</p>
+				<h6>Met inzichten van Teun de Roo, Lead Generation Specialist bij AutoJobs Professionals</h6>
+				<br>
+                    <p>Social media is niet alleen voor leuke kattenfilmpjes of vakantiekiekjes. Ook in de zakelijke wereld speelt het een belangrijke rol, zeker als je bedrijf andere bedrijven (B2B) als klant heeft. Maar hoe pak je dat aan? Een B2B social media strategie kan best ingewikkeld zijn, en niet elk platform werkt even goed. Laten we eens kijken wat er nodig is voor een succesvolle B2B social media strategie en hoe je dit slim inzet om je bedrijf te laten groeien.</p>
                 </div>
                 <div class="entry-main-content wow fadeIn animated">
-                    <p>Fretful human far recklessly while caterpillar well a well blubbered added one a some far whispered rampantly whispered while irksome far clung irrespective wailed more rosily and where saluted while black dear so yikes as considering recast to some crass until.</p>
+                    <p>Om een goede social media strategie te bouwen, moet je eerst weten wie je klanten zijn en in welke branche je werkt. Teun de Roo, Lead Generation Specialist bij AutoJobs Professionals, benadrukt dat in B2B-marketing het vaak gaat om het bereiken van mensen die beslissingen nemen in bedrijven, zoals de CEO of CFO. "Die mensen wil je aanspreken, maar ze zijn meestal druk en hebben weinig tijd om door hun social feeds te scrollen. Je moet dus heel gericht te werk gaan en je markt goed kennen."<br>Door inzicht te krijgen in de problemen van je klant, kun je content maken die echt relevant is. Je moet laten zien dat je begrijpt waar hun uitdagingen liggen en hoe jouw product of dienst daarbij kan helpen.</p>
                     <hr class="wp-block-separator is-style-dots">
-                    <p>Thanks sniffed in hello after in foolhardy and some far purposefully much one at the much conjointly leapt skimpily that quail sheep some goodness <a href="#">nightingale</a> the instead exited expedient up far ouch mellifluous altruistic and and lighted more instead much when ferret but the.</p>
+                    <h4>Profielschets Teun de Roo</h4>
+                    <p> Teun de Roo is Lead Generation Specialist bij AutoJobs Professionals. Met zijn uitgebreide ervaring in B2B marketing en lead generatie, weet hij precies hoe je bedrijven kunt bereiken en overtuigen om klant te worden. Hij is een expert in het gebruik van e-mailmarketing en LinkedIn als platforms om in contact te komen met zakelijke beslissers. Zijn aanpak is gebaseerd op het opbouwen van relaties en het slim gebruiken van data en analytics om resultaten te verbeteren.</p>
                     <figure class="wp-block-gallery columns-3 wp-block-image">
                         <ul class="blocks-gallery-grid">
-                            <li class="blocks-gallery-item"><a href="#"><img class="border-radius-5" src="assets/imgs/news/thumb-2.jpg" alt=""></a></li>
-                            <li class="blocks-gallery-item"><a href="#"><img class="border-radius-5" src="assets/imgs/news/thumb-3.jpg" alt=""></a></li>
-                            <li class="blocks-gallery-item"><a href="#"><img class="border-radius-5" src="assets/imgs/news/thumb-4.jpg" alt=""></a></li>
+                            <li class="blocks-gallery-item"><img class="border-radius-5" src="assets/imgs/news/autojobs.png" alt=""></a></li>
+                            <li class="blocks-gallery-item"><img class="border-radius-5" src="assets/imgs/news/tdr.png" alt=""></a></li>
+                            <li class="blocks-gallery-item"><img class="border-radius-5" src="assets/imgs/news/wbst.png" alt=""></a></li>
                         </ul>
-                        <figcaption> <i class="ti-credit-card mr-5"></i>Image credit: Behance </figcaption>
                     </figure>
                     <hr class="section-divider">
-                    <p>Yet more some certainly yet alas abandonedly whispered <a href="#">intriguingly</a><sup><a href="#">[2]</a></sup> well extensive one howled talkative admonishingly below a rethought overlaid dear gosh activated less <a href="#">however</a> hawk yet oh scratched ostrich some outside crud irrespective lightheartedly and much far amenably that the elephant since when.</p>
-                    <h2>The Guitar Legends</h2>
-                    <p>Furrowed this in the upset <a href="#">some across</a><sup><a href="#">[3]</a></sup> tiger oh loaded house gosh whispered <a href="#">faltering alas</a><sup><a href="#">[4]</a></sup> ouch cuckoo coward in scratched undid together bit fumblingly so besides salamander heron during the jeepers hello fitting jauntily much smoothly globefish darn blessedly far so along bluebird leopard and.</p>
+                    <h4>Gebruik de juiste platform</h4>
+                    <p>Het lijkt misschien alsof je overal tegelijk aanwezig moet zijn, maar dat is niet nodig. Voor B2B zijn sommige platforms effectiever dan andere. Teun adviseert: "LinkedIn is hét platform waar je in de zakelijke wereld wilt zijn. Het is speciaal gemaakt voor professionals en je kunt heel gericht adverteren of netwerken." Daarnaast kan e-mailmarketing een krachtige tool zijn om direct in contact te komen met je doelgroep.<br><br>Platforms zoals Twitter en Facebook kunnen ook werken, afhankelijk van je bedrijf en doelgroep. Twitter is bijvoorbeeld handig om snel nieuws te delen, terwijl Facebook meer geschikt is voor het opbouwen van een community rond je merk. Kies de platforms die het beste aansluiten bij jouw doelen.</p>
                     <blockquote>
-                        <p>Integer eu faucibus <a href="#">dolor</a><sup><a href="#">[5]</a></sup>. Ut venenatis tincidunt diam elementum imperdiet. Etiam accumsan semper nisl eu congue. Sed aliquam magna erat, ac eleifend lacus rhoncus in.</p>
+                        <p>LinkedIn is hét platform waar je in de zakelijke wereld wilt zijn. Het is speciaal gemaakt voor professionals en je kunt heel gericht adverteren of netwerken.</p>
                     </blockquote>
-                    <p>Fretful human far recklessly while caterpillar well a well blubbered added one a some far whispered rampantly whispered while irksome far clung irrespective wailed more rosily and where saluted while black dear so yikes as considering recast to some crass until cow much less and rakishly overdrew consistent for by responsible oh one hypocritical less bastard hey oversaw zebra browbeat a well.</p>
-                    <h3>Getting Crypto Rich</h3>
-                    <hr class="wp-block-separator is-style-wide">
+                    <h4>Hoe meet je succes?</h4>
+					<p>Succes meten in B2B marketing kan een uitdaging zijn. Teun geeft aan dat hij bij AutoJobs Professionals vooral kijkt naar websitebezoeken en leads. "Leads zijn de mensen die interesse hebben getoond in wat je te bieden hebt, bijvoorbeeld door hun gegevens achter te laten op je website." Ook de conversieratio speelt een rol: hoeveel van die leads worden uiteindelijk klant?<br>
+					Daarnaast moet je de lange termijn in de gaten houden. B2B sales cycles zijn vaak langer, dus het kan even duren voordat je de vruchten plukt van je inspanningen op social media.</p>
+					<hr class="wp-block-separator is-style-wide">
+					<h4>Vergeet e-mailmarketing niet</h4>
+                    <p>Hoewel social media belangrijk is, blijft e-mailmarketing een superkracht in B2B. Volgens Teun is e-mailmarketing nog steeds een van de meest directe en persoonlijke manieren om je doelgroep te bereiken. "E-mails komen direct in de inbox van beslissers terecht, zonder dat ze eerst door een lange feed hoeven te scrollen. Bovendien kun je e-mails heel goed personaliseren."<br><br>Door je e-mails specifiek op de ontvanger af te stemmen, vergroot je de kans dat ze openen en reageren. Het is goedkoop, effectief en makkelijk meetbaar.</p>
                     <div class="wp-block-image">
                         <figure class="alignleft is-resized">
                             <img class="border-radius-5" src="assets/imgs/news/news-7.jpg">
@@ -244,29 +227,51 @@
                     <p>And far contrary smoked some contrary among stealthy engagingly suspiciously a cockatoo far circa sank dully lewd slick cracked llama the much gecko yikes more squirrel sniffed this and the the much within uninhibited this abominable a blubbered overdid foresaw through alas the pessimistic.</p>
                     <p>Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far bald that roadrunner python inside held shrewdly the manatee.</p>
                     <hr class="section-divider">
-                    <p>Thanks sniffed in hello after in foolhardy and some far purposefully much one at the much conjointly leapt skimpily that quail sheep some goodness nightingale the instead exited expedient up far ouch mellifluous altruistic and and lighted more instead much when ferret but the.</p>
+                    <h2>Conclusie</h2>
+					<p>Als je wilt beginnen met B2B social media marketing, zijn er een paar dingen die je in gedachten moet houden. Zorg dat je weet wie je klanten zijn en welke platforms zij gebruiken. LinkedIn is vaak de beste keuze voor B2B, maar vergeet ook de kracht van e-mailmarketing niet. Zorg ervoor dat je je berichten personaliseert en gebruik data en analytics om te zien wat werkt.<br>
+					Zoals Teun de Roo aangeeft, draait het uiteindelijk om relaties opbouwen en vertrouwen winnen. Als je dat voor elkaar krijgt, heb je een sterke basis voor een succesvolle B2B strategie. Door slim gebruik te maken van social media, personalisatie, en data, kun je je onderscheiden van je concurrenten en langdurige zakelijke relaties opbouwen.</p>
                     <!--Begin Subcrible-->
                     <div class="border-radius-10 border bg-white mb-30 p-65 wow fadeIn animated text-center">
-                        <h4 class="mb-0 mt-0">Become a member</h4>
-                        <p class="font-md text-grey-400">Get the latest news right in your inbox. We never spam!</p>
+                        <h4 class="mb-0 mt-0">Word een member</h4>
+                        <p class="font-md text-grey-400">Ontvang het laatste nieuws rechtstreeks in je inbox!</p>
                         <form class="mt-30 d-flex wow fadeIn  animated" style="visibility: visible; animation-name: fadeIn;">
-                            <input type="email" class="form-control mr-15" placeholder="Enter your email">
-                            <button type="submit" class="btn btn-lg bg-dark text-white d-inline-block">Subscribe</button>
+                            <input type="email" class="form-control mr-15" placeholder="Vul je e-mailadres in">
+                            <button type="submit" class="btn btn-lg bg-dark text-white d-inline-block">Schrijf in</button>
                         </form>
                     </div>
                     <!--End Subcrible-->
-                    <p>Yet more some certainly yet alas abandonedly whispered intriguingly well extensive one howled talkative admonishingly below a rethought overlaid dear gosh activated less however hawk yet oh scratched ostrich some outside crud irrespective lightheartedly and much far amenably that the elephant since when.</p>
-                </div>
+                    <h2>Interview transcript:</h2>
+					<p>Vraag 1: Hoe ziet een effectieve B2B social media strategie er volgens u uit?<br>
+							Teun de Roo: "Een goede strategie begint met het begrijpen van de industrie waarin je werkt. Je moet echt weten wie je klanten zijn en wat hun specifieke behoeften zijn. In B2B draait het allemaal om het oplossen van problemen voor je klant. Dat moet je duidelijk kunnen overbrengen in je strategie. En vergeet niet dat de klant vaak een hele organisatie is, niet één persoon, dus je moet meerdere mensen overtuigen."</p>
+					<p>Vraag 2: Welke platforms zijn volgens u het meest effectief voor B2B marketing, en waarom?<br>
+							Teun de Roo: "LinkedIn is absoluut het belangrijkste platform voor B2B. Het is gemaakt voor professionals, en daar zitten de mensen die je wilt bereiken. E-mailmarketing is ook heel belangrijk. E-mails zijn persoonlijker en komen direct bij de juiste persoon terecht. En soms is de ouderwetse manier, zoals iemand bellen, nog steeds het meest effectief. Persoonlijk contact doet vaak meer dan een post op social media."</p>
+					<p>Vraag 3: Hoe meet u succes in B2B marketingcampagnes, bijvoorbeeld bij AutoJobs? Welke KPI's spelen een rol?<br>
+							Teun de Roo: "Wij kijken vooral naar websitebezoeken en leads. Leads zijn superbelangrijk, want dat zijn de mensen die geïnteresseerd zijn. Ook kijken we naar de conversieratio, dus hoeveel van die leads uiteindelijk klant worden. Het is niet alleen belangrijk hoeveel mensen je bereikt, maar ook wat ze vervolgens doen."</p>
+					<p>Vraag 4: Wat zijn de grootste uitdagingen die bedrijven tegenkomen bij het implementeren van B2B social media marketing?<br>
+							Teun de Roo: "Het moeilijkste is vaak het bereiken van de juiste doelgroep. Je hebt niet zoals in B2C een brede massa, maar een kleinere groep van beslissers die je moet overtuigen. En dan heb je nog de lange sales cycle. Het duurt vaak lang voordat een bedrijf besluit om echt zaken met je te doen, dus je moet geduldig zijn en in die tussentijd de relatie goed onderhouden."</p>
+					<p>Vraag 5: Welke rol speelt content in een B2B social media strategie?<br>
+							Teun de Roo: "Content is belangrijk, maar niet alles. In B2B draait het meer om relaties dan om content. Je kunt de beste blogposts schrijven, maar als je geen goede relatie hebt met je klant, kom je niet ver. Toch moet je natuurlijk wel zorgen dat de content die je maakt waardevol is en helpt om vertrouwen op te bouwen."</p>
+					<p>Vraag 6: Welke trends ziet u opkomen in de B2B social media marketing voor de komende jaren?<br>
+							Teun de Roo: "Het opbouwen en onderhouden van relaties wordt steeds belangrijker. Je ziet ook dat personalisatie steeds meer op de voorgrond treedt. Bedrijven willen zich onderscheiden door hun communicatie persoonlijker te maken. Daarnaast wordt data steeds belangrijker. Bedrijven gebruiken analytics om hun campagnes te optimaliseren en betere resultaten te halen."</p>
+					<p>Vraag 7: Hoe kan een bedrijf dat begint met B2B social media marketing zich onderscheiden van concurrenten?
+							Teun de Roo: "Wees persoonlijk, snel, en proactief. Als je bijvoorbeeld een dienst aanbiedt, bied die dan aan met een proefperiode of korting. Mensen waarderen het als ze iets gratis kunnen proberen, en dat kan hen over de streep trekken om klant te worden. Ook snelheid is belangrijk. Als je snel reageert en proactief bent, laat je zien dat je betrokken bent en weet wat je doet. Dat maakt een groot verschil, vooral in B2B waar beslissers vaak met meerdere opties tegelijk bezig zijn."</p>
+					<p>Vraag 8: In hoeverre is personalisatie belangrijk in B2B social media marketing?<br>
+			 				Teun de Roo: "Personalisatie is echt cruciaal. In B2B wil je je onderscheiden van de rest, en dat doe je door je communicatie zoveel mogelijk af te stemmen op de specifieke behoeften van je klant. Als je je berichten te algemeen maakt, val je niet op en kun je zelfs de indruk wekken dat je niet echt begrijpt wat je klant nodig heeft. Hoe persoonlijker je bent, hoe meer je laat zien dat je de klant waardeert."</p> 
+					<p>Vraag 9: Hoe belangrijk zijn data en analytics voor het succes van een B2B social media strategie?<br>
+							Teun de Roo: "Data en analytics zijn onmisbaar. Als je niet meet wat je doet, weet je ook niet wat werkt en wat niet. Bij AutoJobs Professionals kijken we bijvoorbeeld naar websitebezoeken, conversies en leads. Deze gegevens geven ons inzicht in welke campagnes effectief zijn en waar we moeten bijsturen. Zonder die data zou je eigenlijk maar een beetje in het donker tasten."</p> 
+					<p>Vraag 10: Wat is volgens u de rol van influencers in B2B marketing, en hoe verschilt dit van B2C?
+							Teun de Roo: "Influencers hebben in B2B een veel kleinere rol dan in B2C. In de consumentenmarkt kunnen influencers een groot effect hebben op aankoopbeslissingen, maar in B2B gaat het om andere factoren. Een CEO of CFO gaat geen zaken doen op basis van een aanbeveling van een influencer. Het draait meer om kennis en vertrouwen. Als er al influencers zijn in B2B, dan zijn het vaak thought leaders of experts binnen een bepaalde branche die mensen vertrouwen vanwege hun expertise."</p>
+			  </div>
                 <div class="entry-bottom mt-50 mb-30 wow fadeIn animated">
                     <div class="tags w-50 w-sm-100">
                         <h5 class="mb-15">Tags: </h5>
-                        <a href="category.html" rel="tag" class="hover-up-3">deer</a>
-                        <a href="category.html" rel="tag" class="hover-up-3">nature</a>
-                        <a href="category.html" rel="tag" class="hover-up-3">conserve</a>
+                        <a href="category.html" rel="tag" class="hover-up-3">b2b</a>
+                        <a href="category.html" rel="tag" class="hover-up-3">instagram</a>
+                        <a href="category.html" rel="tag" class="hover-up-3">marketing</a>
                     </div>
                     <div class="single-social-share clearfix wow fadeIn animated mb-15 w-50 w-sm-100">
                         <ul class="header-social-network d-inline-block list-inline float-md-right mt-md-0 mt-4">
-                            <li class="list-inline-item text-muted"><span>Share this: </span></li>
+                            <li class="list-inline-item text-muted"><span>Delen: </span></li>
                             <li class="list-inline-item"><a class="social-icon fb text-xs-center" target="_blank" href="#"><i class="elegant-icon social_facebook"></i></a></li>
                             <li class="list-inline-item"><a class="social-icon tw text-xs-center" target="_blank" href="#"><i class="elegant-icon social_twitter "></i></a></li>
                             <li class="list-inline-item"><a class="social-icon pt text-xs-center" target="_blank" href="#"><i class="elegant-icon social_pinterest "></i></a></li>
@@ -279,156 +284,19 @@
                         <a href="page-author.html"><img src="assets/imgs/authors/author-details.jpg" alt="" class="avatar"></a>
                     </div>
                     <div class="author-info">
-                        <h4 class="font-weight-bold mb-20"><span class="vcard author"><span class="fn"><a href="page-author.html" title="Posted by Barbara Cartland" rel="author">Barbara Cartland</a></span></span>
+                        <h4 class="font-weight-bold mb-20"><span class="vcard author"><span class="fn"><a href="page-author.html" title="Posted by Justin Wong" rel="author">Justin Wong</a></span></span>
                         </h4>
-                        <div class="author-description text-muted">You should write because you love the shape of Flow and sentences and the creation of different words on a page. </div>
+                        <div class="author-description text-muted">Met een passie voor marketing en klantbeleving blijf ik gericht op groei en verdere ontwikkeling in mijn vakgebied. </div>
                         <h6 class="text-grey-400">Social Media</h6>
                         <div class="author-social-small">
                             <ul class="author-social-icons">
-                                <li class="author-social-link-facebook"><a href="#" target="_blank"><i class="elegant-icon social_facebook"></i></a></li>
-                                <li class="author-social-link-twitter"><a href="#" target="_blank"><i class="elegant-icon social_twitter "></i></a></li>
-                                <li class="author-social-link-pinterest"><a href="#" target="_blank"><i class="elegant-icon  social_pinterest "></i></a></li>
-                                <li class="author-social-link-instagram"><a href="#" target="_blank"><i class="elegant-icon social_instagram "></i></a></li>
+                                <li class="author-social-link-facebook"><a href="#" target="_blank"><i class="elegant-icon social_instagram"></i></a></li>
+                                <li class="author-social-link-twitter"><a href="#" target="_blank"><i class="elegant-icon social_facebook "></i></a></li>
+                                <li class="author-social-link-pinterest"><a href="#" target="_blank"><i class="elegant-icon  social_twitter "></i></a></li>
+                                <li class="author-social-link-instagram"><a href="#" target="_blank"><i class="elegant-icon social_linkedin "></i></a></li>
                             </ul>
                         </div>
                     </div>
-                </div>
-                <!--Comments-->
-                <div class="comments-area wow fadeIn animated">
-                    <div class="widget-header-2 position-relative mb-30">
-                        <h3 class="mt-5 mb-30 font-heading">Comments</h3>
-                    </div>
-                    <div class="comment-list wow fadeIn animated">
-                        <div class="single-comment justify-content-between d-flex">
-                            <div class="user justify-content-between d-flex">
-                                <div class="thumb">
-                                    <img src="assets/imgs/authors/author-4.jpg" alt="">
-                                </div>
-                                <div class="desc">
-                                    <p class="comment">
-                                        Vestibulum euismod, leo eget varius gravida, eros enim interdum urna, non rutrum enim ante quis metus. Duis porta ornare nulla ut bibendum
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center">
-                                            <h5>
-                                                <a href="#">Rosie</a>
-                                            </h5>
-                                            <p class="date">6 minutes ago </p>
-                                        </div>
-                                        <div class="reply-btn">
-                                            <a href="#" class="btn-reply">Reply</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="comment-list wow fadeIn animated">
-                        <div class="single-comment justify-content-between d-flex">
-                            <div class="user justify-content-between d-flex">
-                                <div class="thumb">
-                                    <img src="assets/imgs/authors/author-2.jpg" alt="">
-                                </div>
-                                <div class="desc">
-                                    <p class="comment">
-                                        Sed ac lorem felis. Ut in odio lorem. Quisque magna dui, maximus ut commodo sed, vestibulum ac nibh. Aenean a tortor in sem tempus auctor
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center">
-                                            <h5>
-                                                <a href="#">Agatha Christie</a>
-                                            </h5>
-                                            <p class="date">December 4, 2020 at 3:12 pm </p>
-                                        </div>
-                                        <div class="reply-btn">
-                                            <a href="#" class="btn-reply">Reply</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single-comment depth-2 justify-content-between d-flex mt-50">
-                            <div class="user justify-content-between d-flex">
-                                <div class="thumb">
-                                    <img src="assets/imgs/authors/author.jpg" alt="">
-                                </div>
-                                <div class="desc">
-                                    <p class="comment">
-                                        Sed ac lorem felis. Ut in odio lorem. Quisque magna dui, maximus ut commodo sed, vestibulum ac nibh. Aenean a tortor in sem tempus auctor
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center">
-                                            <h5>
-                                                <a href="#">Steven</a>
-                                            </h5>
-                                            <p class="date">December 4, 2020 at 3:12 pm </p>
-                                        </div>
-                                        <div class="reply-btn">
-                                            <a href="#" class="btn-reply">Reply</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="comment-list wow fadeIn animated">
-                        <div class="single-comment justify-content-between d-flex">
-                            <div class="user justify-content-between d-flex">
-                                <div class="thumb">
-                                    <img src="assets/imgs/authors/author-3.jpg" alt="">
-                                </div>
-                                <div class="desc">
-                                    <p class="comment">
-                                        Donec in ullamcorper quam. Aenean vel nibh eu magna gravida fermentum. Praesent eget nisi pulvinar, sollicitudin eros vitae, tristique odio.
-                                    </p>
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex align-items-center">
-                                            <h5>
-                                                <a href="#">Danielle Steel</a>
-                                            </h5>
-                                            <p class="date">December 4, 2020 at 3:12 pm </p>
-                                        </div>
-                                        <div class="reply-btn">
-                                            <a href="#" class="btn-reply">Reply</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--comment form-->
-                <div class="comment-form wow fadeIn animated pb-35">
-                    <div class="widget-header-2 position-relative mb-30">
-                        <h3 class="mt-5 mb-30 font-heading">Leave a Reply</h3>
-                    </div>
-                    <form class="form-contact comment_form" action="#" id="commentForm">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9" placeholder="Write Comment"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input class="form-control" name="name" id="name" type="text" placeholder="Name">
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-group">
-                                    <input class="form-control" name="email" id="email" type="email" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <input class="form-control" name="website" id="website" type="text" placeholder="Website">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-lg bg-dark text-white d-inline-block">Post Comment</button>
-                        </div>
-                    </form>
                 </div>
                 <!--More posts-->
                 <div class="single-more-articles border-radius-10">
@@ -502,7 +370,7 @@
         </section>
     </main>
     <!-- End Main content -->
-    <!--end site-bottom-->
+	<!-- Footer Start-->
     <footer class="pt-65 bg-dark">
         <div class="container">
             <div class="row mb-65">
@@ -513,8 +381,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex text-right text-sm-left align-self-center justify-content-end wow fadeIn animated">
-                        <h5 class="mr-15 text-white mb-0 align-self-center">All you need to build new site</h5>
-                        <button class="btn btn-lg bg-brand-1">Download Now</button>
+                        <h5 class="mr-15 text-white mb-0 align-self-center">Alles over de laatste weetjes!</h5>
+                        <button class="btn btn-lg bg-brand-1">Contact ons</button>
                     </div>
                 </div>
                 <div class="col-12">
@@ -525,32 +393,32 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="sidebar-widget widget-about wow fadeIn animated mb-30">
                         <div class="widget-header-2 position-relative mb-30">
-                            <h5 class="mt-5 mb-30">About</h5>
+                            <h5 class="mt-5 mb-30">Over</h5>
                         </div>
                         <div class="textwidget">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio suspendisse leo neque iaculis molestie sagittis maecenas aenean eget molestie sagittis.
+                                Flow is een dynamisch online blogplatform dat zich richt op het delen van het laatste marketingnieuws, trends en inzichten.
                             </p>
-                            <p><strong class="color-black">Address</strong><br>
-                                123 Main Street<br>
-                                New York, NY 10001</p>
-                            <p><strong class="color-black">Phone</strong><br>
-                                (+01) 234 567 89</p>
+                            <p><strong class="color-black">Adres</strong><br>
+                                Fraijlemaborg 133<br>
+                                1102 CV Amsterdam</p>
+                            <p><strong class="color-black">Telefoon</strong><br>
+                                +31 6 12345678</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="sidebar-widget widget_categories wow fadeIn animated mb-30" data-wow-delay="0.1s">
                         <div class="widget-header-2 position-relative mb-30">
-                            <h5 class="mt-5 mb-30">Quick link</h5>
+                            <h5 class="mt-5 mb-30">Service</h5>
                         </div>
                         <ul class="font-small">
-                            <li class="cat-item cat-item-2"><a href="#">About me</a></li>
-                            <li class="cat-item cat-item-4"><a href="#">Help & Support</a></li>
-                            <li class="cat-item cat-item-5"><a href="#">Licensing Policy</a></li>
-                            <li class="cat-item cat-item-6"><a href="#">Refund Policy</a></li>
+                            <li class="cat-item cat-item-2"><a href="page-about.html">Over ons</a></li>
+                            <li class="cat-item cat-item-4"><a href="#">Klantenservice</a></li>
+                            <li class="cat-item cat-item-5"><a href="#">Privacybeleid</a></li>
+                            <li class="cat-item cat-item-6"><a href="#">Algemene voorwaarden</a></li>
                             <li class="cat-item cat-item-7"><a href="#">Hire me</a></li>
-                            <li class="cat-item cat-item-7"><a href="#">Contact</a></li>
+                            <li class="cat-item cat-item-7"><a href="page-contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -560,24 +428,24 @@
                             <h5 class="mt-5 mb-30">Tagcloud</h5>
                         </div>
                         <div class="tagcloud mt-50">
-                            <a class="tag-cloud-link" href="category.html">beautiful</a>
-                            <a class="tag-cloud-link" href="category.html">New York</a>
-                            <a class="tag-cloud-link" href="category.html">droll</a>
-                            <a class="tag-cloud-link" href="category.html">intimate</a>
-                            <a class="tag-cloud-link" href="category.html">loving</a>
-                            <a class="tag-cloud-link" href="category.html">travel</a>
-                            <a class="tag-cloud-link" href="category.html">fighting </a>
+                            <a class="tag-cloud-link" href="category.html">B2B</a>
+                            <a class="tag-cloud-link" href="category.html">Instagram</a>
+							<a class="tag-cloud-link" href="category.html">social media</a>
+                            <a class="tag-cloud-link" href="category.html">marketing</a>
+                            <a class="tag-cloud-link" href="category.html">Facebook</a>
+                            <a class="tag-cloud-link" href="category.html">ads</a>
+                            <a class="tag-cloud-link" href="category.html">tips </a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="footer-copy-right pt-30 mt-20 wow fadeIn animated font-md">
-                <p class="float-md-left font-small text-muted">&copy; 2021, Flow - Design by <a href="https://alithemes.com" target="_blank">AliThemes</a></p>
+                <p class="float-md-left font-small text-muted">&copy; 2024, Flow - Made by <a href="https://www.justinwong.nl" target="_blank">Justin Wong</a></p>
                 <ul class="social-network d-inline-block list-inline color-white mb-20 float-right">
+					<li class="list-inline-item"><a href="#" target="_blank" title="Instagram"><i class="elegant-icon social_instagram"></i></a></li>
                     <li class="list-inline-item"><a href="#" target="_blank" title="Facebook"><i class="elegant-icon social_facebook"></i></a></li>
                     <li class="list-inline-item"><a href="#" target="_blank" title="Tweet now"><i class="elegant-icon social_twitter"></i></a></li>
                     <li class="list-inline-item"><a href="#" target="_blank" title="Pin it"><i class="elegant-icon social_pinterest"></i></a></li>
-                    <li class="list-inline-item"><a href="#" target="_blank" title="Pin it"><i class="elegant-icon social_skype"></i></a></li>
                 </ul>
             </div>
         </div>
